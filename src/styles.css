@@ -1,0 +1,63 @@
+.App {
+  font-family: "Roboto Flex", sans-serif;
+  text-align: center;
+  color: black;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+body {
+  background-color: #798a8f;
+}
+
+h2 {
+  margin: 1rem;
+}
+
+.userlist {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  width: 300px;
+  border-radius: 10px;
+  margin: 1.5em 1.5em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: transform 0.3s ease;
+  background-color: #b5c6e0;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.avatar {
+  margin: 0.5em auto;
+  height: 50px;
+  width: 50px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px;
+}
+
+.custom {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.pagination {
+  display: flex;
+  align-content: center;
+}
+
+ul {
+  list-style: none;
+}
