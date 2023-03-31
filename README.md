@@ -1,4 +1,4 @@
-A random people search project
+<h1>A random people search project</h1>
 
 ![randomusers](https://user-images.githubusercontent.com/86847314/229175962-6f1f38a7-54d9-41e1-b2a4-2f376c5f4994.JPG)
 
